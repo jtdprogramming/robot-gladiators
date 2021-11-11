@@ -1,3 +1,4 @@
+//this comments in javascript
 var playerName = window.prompt("What is your robot's name?");
 var playerHealth = 100;
 var playerAttack = 10;
@@ -10,7 +11,7 @@ var enemyAttack = 12;
 console.log(enemyNames);
 console.log(enemyNames.length);
 console.log(enemyNames[0]);
-console.log(enemyNames[3]);
+console.log(enemyNames[2]);
 
 // fight function (now with parameter for enemy's name)
 var fight = function(enemyName) {
