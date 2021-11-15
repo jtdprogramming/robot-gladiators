@@ -93,6 +93,10 @@ var startGame = function() {
   endGame();
 };
 
+var shop = function() {
+  console.log("entered the shop");
+}
+
 // function to end the entire game
 var endGame = function() {
   // if player is still alive, player wins!
@@ -116,3 +120,4 @@ var endGame = function() {
 }
 
 startGame();
+
